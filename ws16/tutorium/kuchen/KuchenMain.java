@@ -10,7 +10,7 @@ public class KuchenMain {
         Kuchen standard = new Kuchen();
         standard.backen();
         standard.dekorieren("Glitzer");
-        System.out.println(standard.printVerteilung(12, 4));
+        System.out.println(standard.verteilen(12, 4));
 
         System.out.println();
 

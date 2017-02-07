@@ -36,12 +36,8 @@ public class Kuchen {
         System.out.println("Dein Kuchen ist nun mit " + deko + " dekoriert.");
     }
 
-    public boolean verteilen(int stuecke, int esser){
-        return (stuecke > esser);
-    }
-
-    public String printVerteilung(int stuecke, int esser){
-        if(verteilen(stuecke, esser)){
+    public String verteilen(int stuecke, int esser){
+        if(stuecke >= esser){
             return "Es ist genug Kuchen für alle da!";
         }
         else {
