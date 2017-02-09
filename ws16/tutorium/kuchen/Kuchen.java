@@ -6,22 +6,13 @@ package ws16.tutorium.kuchen;
 public class Kuchen {
 
     private String geschmack;
-    private int mehl;
-    private int eier;
-    private int butter;
 
     Kuchen(){
         this.geschmack = "Rühr";
-        this.mehl = 400;
-        this.eier = 5;
-        this.butter = 200;
     }
 
-    Kuchen(String geschmack, int mehl, int eier, int butter){
+    Kuchen(String geschmack){
         this.geschmack = geschmack;
-        this.mehl = mehl;
-        this.eier = eier;
-        this .butter = butter;
     }
 
     public void backen(){

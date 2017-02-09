@@ -8,19 +8,19 @@ public class HochzeitsKuchen extends Kuchen {
     Kuchen ersteEtage;
     Kuchen zweiteEtage;
     Kuchen dritteEtage;
-    String namen;
+    String hochzeitspaar;
 
-    HochzeitsKuchen(String namen){
-        super("Hochzeits", 0, 0, 0);
-        ersteEtage = new Kuchen("Zitronen", 500, 6, 250);
-        zweiteEtage = new Kuchen("Möhren", 100, 4, 200);
-        dritteEtage = new Kuchen("Schoko", 100, 6, 300);
-        this.namen = namen;
+    HochzeitsKuchen(String hochzeitspaar){
+        super("Hochzeits");
+        ersteEtage = new Kuchen("Zitronen");
+        zweiteEtage = new Kuchen("Möhren");
+        dritteEtage = new Kuchen("Schoko");
+        this.hochzeitspaar = hochzeitspaar;
     }
 
     @Override
     public void backen(){
-        System.out.println("Du musst die einzelnen Etagen für " + this.namen + " backen.");
+        System.out.println("Du musst die einzelnen Etagen für " + this.hochzeitspaar + " backen.");
     }
 }
 

@@ -34,7 +34,7 @@ public class Haustier {
         System.out.println(this.name + "macht Geräusche");
     }
 
-    // eine Methode, die wir überlagern (gleiche Funktionalität durch gleichnamige Methoden mit verschiedenen Parameterlisten (verschiedenen Signaturen))
+    // eine Methode, die wir überladen (gleiche Funktionalität durch gleichnamige Methoden mit verschiedenen Parameterlisten (verschiedenen Signaturen))
     void spielt(){
         System.out.println(this.name +  " spielt.");
     }
